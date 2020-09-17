@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "input batch id"
+
+read batch
+
+echo "selected note batch:  ${batch}"
+
+python create_vocab.py ${batch}
+
